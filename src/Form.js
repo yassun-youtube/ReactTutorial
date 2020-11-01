@@ -1,11 +1,11 @@
 import { useState } from 'react';
 
-export const Form = () => {
+export const Form = ({ onAddLang }) => {
   const [text, setText] = useState('');
 
   const submitForm = (e) => {
     e.preventDefault();
-    console.log(`submitForm(${text})`);
+    onAddLang(text);
   }
 
   return (

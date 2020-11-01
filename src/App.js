@@ -1,14 +1,24 @@
 import React from 'react';
 import { List } from "./List";
 import { Form } from "./Form";
+import { LANGUAGES } from "./const/languages";
 
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { tab: 'list' };
+    this.state = {
+      tab: 'list',
+      langs: LANGUAGES,
+    };
+  }
+  addLang(lang) {
+    this.setState({
+      langs: [...this.state.langs, lang],
+      tab: 'list',
+    });
   }
   render() {
-    const { tab } = this.state;
+    const { tab, langs } = this.state;
     return (
       <div>
         <header>
@@ -19,7 +29,7 @@ class App extends React.Component {
         </header>
         <hr />
         {
-          tab === 'list' ? <List /> : <Form />
+          tab === 'list' ? <List langs={langs} /> : <Form onAddLang={(lang) => this.addLang(lang)}/>
         }
       </div>
     )

@@ -7,10 +7,9 @@ const LANGUAGES = [
   'Go'
 ];
 
-export const List = ({ title }) => {
+export const List = () => {
   return (
     <div>
-      <h4>{ title }</h4>
       {
         LANGUAGES.map((lang, index) => {
           return <div key={index}>{ lang }</div>

@@ -8,8 +8,8 @@ function App() {
   const [langs, setLangs] = useState(LANGUAGES);
 
   const addLang = (lang) => {
-    console.log(lang);
-    setLangs([...langs, lang])
+    setLangs([...langs, lang]);
+    setTab('list');
   }
 
   return (
@@ -22,7 +22,7 @@ function App() {
       </header>
       <hr />
       {
-        tab === 'list' ? <List /> : <Form onAddLang={addLang}/>
+        tab === 'list' ? <List langs={langs} /> : <Form onAddLang={addLang}/>
       }
     </div>
   );

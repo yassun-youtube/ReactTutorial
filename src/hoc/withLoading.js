@@ -1,8 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
+import { ThemeContext } from "../contexts/ThemeContext";
 
 const LoadDiv = styled.div`
+  height: 100%;
   padding: 36px;
+  color: ${({ theme }) => theme.color};
+  background: ${({ theme }) => theme.backgroundColor };
 `
 
 export const withLoading = (WrappedComponent, fetchData) => {
@@ -25,7 +29,14 @@ export const withLoading = (WrappedComponent, fetchData) => {
         <LoadDiv>ロード中...</LoadDiv>
       )
 
-      return data ? <WrappedComponent data={data} /> : Loading;
+      return (
+        <ThemeContext.Consumer>
+          {
+            ([theme]) => data ? <WrappedComponent data={data} /> : <LoadDiv theme={theme}>ロード中...</LoadDiv>
+          }
+
+        </ThemeContext.Consumer>
+      )
     }
   }
   return HOC;

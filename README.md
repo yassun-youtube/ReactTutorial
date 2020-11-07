@@ -13,7 +13,7 @@
 
 # 入門動画と対応するQiita記事一覧
 
-- その1
+- その1. Reactの新規プロジェクトの作成と立ち上げ
   - [YouTube](https://youtu.be/lEEC_NuIGQc)
   - [Qiita](https://qiita.com/yassun-youtube/items/2ae26050efd2133c2286)
 

@@ -1,4 +1,7 @@
+import { useContext } from 'react';
 import styled from "styled-components";
+import { Button } from "./components/button";
+import { ThemeContext } from "./contexts/ThemeContext";
 
 const Container = styled.header`
   display: flex;
@@ -19,13 +22,20 @@ const HeaderLi = styled.li`
   border-bottom: ${props => props.focused ? '2px solid #F44336' : 'none' };
 `
 
+const HeaderButton = styled(Button)`
+  padding: 0;
+  margin-bottom: 4px;
+`
+
 export const Header = ({ tab, setTab }) => {
+  const [theme, toggleTheme] = useContext(ThemeContext);
   return (
     <Container>
       <HeaderUl>
         <HeaderLi focused={tab === 'list'} onClick={() => setTab('list')}>リスト</HeaderLi>
         <HeaderLi focused={tab === 'form'} onClick={() => setTab('form')}>フォーム</HeaderLi>
       </HeaderUl>
+      <HeaderButton onClick={toggleTheme}>テーマ変更</HeaderButton>
     </Container>
   )
 }

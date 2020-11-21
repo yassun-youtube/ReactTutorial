@@ -22,7 +22,9 @@
 - その3. Class Components と Function Components
   - [<img width="240" src="https://img.youtube.com/vi/ve85ejcYiZ0/0.jpg">](https://youtu.be/ve85ejcYiZ0)
   - [Qiita](https://qiita.com/yassun-youtube/items/2ed8601e4fa477726705)
-- その4. 条件分岐 (if) と繰り返し (loop) (準備中)
+- その4. 条件分岐 (if) と繰り返し (loop)
+  - [<img width="240" src="https://img.youtube.com/vi/ZLEMN2pCE8E/0.jpg">](https://youtu.be/ZLEMN2pCE8E)
+  - [Qiita](https://qiita.com/yassun-youtube/items/9474b1681958e2ab0f25)
 - その5. フォームと親子間のデータのやり取り (準備中)
 - その6. コンポーネントのライフサイクル (準備中)
 - その7. スタイル (準備中)

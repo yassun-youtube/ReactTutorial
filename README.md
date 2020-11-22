@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# React入門 未経験から1週間でReactをマスターする
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+このレポジトリは、 [やっすんのYouTube大学](https://www.youtube.com/channel/UCajrdoGzHzDogrNrLYYmGsg/) で投稿している
 
-## Available Scripts
+「React入門 未経験から1週間でReactをマスターする」のコードをアップしているものです。
 
-In the project directory, you can run:
+# 入門の始め方
 
-### `yarn start`
+この入門は、 動画(YouTube),　文章（Qiita）， 動くコード(GitHub) の3つを提供している入門で、究極のReact入門になっています。
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+そのため、YouTubeかQiita記事を見ながら、このレポジトリを利用してください。
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+# 入門動画と対応するQiita記事一覧
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- その1. Reactの新規プロジェクトの作成と立ち上げ
+  - [<img width="240" src="https://img.youtube.com/vi/lEEC_NuIGQc/0.jpg">](https://youtu.be/lEEC_NuIGQc)
+  - [Qiita](https://qiita.com/yassun-youtube/items/2ae26050efd2133c2286)
+- その2. コンポーネントのプロパティ(props)とステート(state)
+  - [<img width="240" src="https://img.youtube.com/vi/8KV1CBcB2Yg/0.jpg">](https://youtu.be/8KV1CBcB2Yg)
+  - [Qiita](https://qiita.com/yassun-youtube/items/ca91e2f9905fb8ca62d0)
+- その3. Class Components と Function Components
+  - [<img width="240" src="https://img.youtube.com/vi/ve85ejcYiZ0/0.jpg">](https://youtu.be/ve85ejcYiZ0)
+  - [Qiita](https://qiita.com/yassun-youtube/items/2ed8601e4fa477726705)
+- その4. 条件分岐 (if) と繰り返し (loop)
+  - [<img width="240" src="https://img.youtube.com/vi/ZLEMN2pCE8E/0.jpg">](https://youtu.be/ZLEMN2pCE8E)
+  - [Qiita](https://qiita.com/yassun-youtube/items/9474b1681958e2ab0f25)
+- その5. フォームと親子間のデータのやり取り (準備中)
+- その6. コンポーネントのライフサイクル (準備中)
+- その7. スタイル (準備中)
+- その8. Higher-Order Component (準備中)
+- その9. Portalを利用したモーダル (準備中)
+- その10. refによるエレメントの取得 (準備中)
+- その11. Contextを利用したテーマの変更 (準備中)
 
-### `yarn build`
+# このアプリの起動方法
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+yarn install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+で各種パッケージをインストールしたあとに、
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+yarn start
+```
 
-### `yarn eject`
+で `http://localhost:3000` にアプリが立ち上がります。
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

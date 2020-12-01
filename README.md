@@ -25,9 +25,13 @@
 - その4. 条件分岐 (if) と繰り返し (loop)
   - [<img width="240" src="https://img.youtube.com/vi/ZLEMN2pCE8E/0.jpg">](https://youtu.be/ZLEMN2pCE8E)
   - [Qiita](https://qiita.com/yassun-youtube/items/9474b1681958e2ab0f25)
-- その5. フォームと親子間のデータのやり取り (準備中)
-- その6. コンポーネントのライフサイクル (準備中)
-- その7. スタイル (準備中)
+- その5. フォームと親子間のデータのやり取り
+  - [<img width="240" src="https://img.youtube.com/vi/kEBP9WhifX0/0.jpg">](https://youtu.be/kEBP9WhifX0)
+  - [Qiita](https://qiita.com/yassun-youtube/items/545e7d9c98fe919dc394)
+- その6. コンポーネントのライフサイクル
+  - [<img width="240" src="https://img.youtube.com/vi/SKrnW7PRBdk/0.jpg">](https://youtu.be/SKrnW7PRBdk)
+- その7. スタイル
+  - [<img width="240" src="https://img.youtube.com/vi/VxwI2tavv_M/0.jpg">](https://youtu.be/VxwI2tavv_M)
 - その8. Higher-Order Component (準備中)
 - その9. Portalを利用したモーダル (準備中)
 - その10. refによるエレメントの取得 (準備中)

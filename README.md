@@ -34,6 +34,7 @@
 - その7. スタイル
   - [<img width="240" src="https://img.youtube.com/vi/VxwI2tavv_M/0.jpg">](https://youtu.be/VxwI2tavv_M)
 - その8. Higher-Order Component (準備中)
+  - [<img width="240" src="https://img.youtube.com/vi/9iulWDK95TY/0.jpg">](https://youtu.be/9iulWDK95TY)
 - その9. Portalを利用したモーダル (準備中)
 - その10. refによるエレメントの取得 (準備中)
 - その11. Contextを利用したテーマの変更 (準備中)

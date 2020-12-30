@@ -30,6 +30,7 @@
   - [Qiita](https://qiita.com/yassun-youtube/items/545e7d9c98fe919dc394)
 - その6. コンポーネントのライフサイクル
   - [<img width="240" src="https://img.youtube.com/vi/SKrnW7PRBdk/0.jpg">](https://youtu.be/SKrnW7PRBdk)
+  - [Qiita](https://qiita.com/yassun-youtube/items/372464404ae6855e6d78)
 - その7. スタイル
   - [<img width="240" src="https://img.youtube.com/vi/VxwI2tavv_M/0.jpg">](https://youtu.be/VxwI2tavv_M)
 - その8. Higher-Order Component (準備中)
